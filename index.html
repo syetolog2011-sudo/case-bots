@@ -1,46 +1,48 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8" />
-  <title>Case App</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <title>Case Bot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- HEADER -->
-  <header class="top">
-    <div class="live">
-      <span class="dot"></span> LIVE
-    </div>
-
+<!-- TOP BAR -->
+<div class="top-bar">
+    <div class="live">LIVE</div>
     <div class="balance">
-      ⭐ <span id="stars">0</span>
-      <button class="add">+</button>
+        ⭐ <span id="stars">0</span>
+        <button class="plus">+</button>
     </div>
-  </header>
+</div>
 
-  <!-- MAIN -->
-  <main class="content">
+<!-- MAIN -->
+<div class="container">
 
-    <div class="card roulette">
-      <div class="title">🎯 Рулетка</div>
-      <div class="subtitle">2 кейса</div>
-    </div>
-
-    <div class="card soon">
-      <div class="title">SOON 😴</div>
-      <div class="subtitle">Скоро будет</div>
+    <div class="roulette-card">
+        <div class="roulette-title">🎰 РУЛЕТКА</div>
+        <div class="roulette-sub">2 кейса</div>
+        <button class="spin-btn">КРУТИТЬ</button>
     </div>
 
-  </main>
+    <div class="soon-card">
+        SOON 😴
+    </div>
 
-  <!-- FOOTER -->
-  <footer class="bottom">
-    <div class="nav active">🎁<span>Кейсы</span></div>
-    <div class="nav">✅<span>Задания</span></div>
-    <div class="nav">👤<span>Профиль</span></div>
-  </footer>
+</div>
+
+<!-- BOTTOM NAV -->
+<div class="bottom-nav">
+    <div class="nav-item active">
+        🎁
+        <span>Кейсы</span>
+    </div>
+    <div class="nav-item">
+        👤
+        <span>Профиль</span>
+    </div>
+</div>
 
 </body>
 </html>
